@@ -11,7 +11,7 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
+            background-color: #f5f5f5;
             color: #333;
             background-image: url('https://images.unsplash.com/photo-1577559713293-821ea808e8cb');
             background-size: cover;
@@ -24,12 +24,13 @@
             margin: auto;
             padding: 50px 20px;
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(255, 255, 255, 0.95);
             border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 20px;
             color: #343a40;
         }
@@ -42,16 +43,17 @@
 
         .button {
             display: inline-block;
-            padding: 12px 30px;
-            margin-top: 20px;
+            padding: 15px 40px;
+            margin-top: 30px;
             background-color: #007bff;
             color: #fff;
             text-decoration: none;
-            border-radius: 25px;
+            border-radius: 30px;
             transition: background-color 0.3s ease;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             border: none;
             cursor: pointer;
+            box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
         }
 
         .button:hover {
@@ -60,28 +62,27 @@
 
         .contact-info {
             margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.1rem;
         }
 
         .contact-info p {
             margin: 10px 0;
-            font-size: 1rem;
             color: #6c757d;
         }
 
         .contact-info .emoji {
-            font-size: 1rem;
+            font-size: 1.5rem;
             margin-right: 5px;
             color: #007bff;
         }
 
-        .email {
-            font-weight: bold;
-            color: #343a40;
-        }
-
+        .email,
         .telegram {
             font-weight: bold;
-            color: #007bff;
+            color: #343a40;
         }
     </style>
 </head>
