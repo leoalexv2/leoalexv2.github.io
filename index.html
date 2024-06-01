@@ -3,161 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harshrajsinh's Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>ULTIMATE TOP-G</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #000000;
-            overflow: hidden;
-            position: relative;
-            color: #ffffff;
+            background-color: #000;
+            color: #fff;
         }
-
-        .header-container {
-            background-color: #000000;
-            padding: 20px 0;
+        .header {
             text-align: center;
-            color: #ffffff;
+            margin-bottom: 40px;
+            font-family: 'Caveat', cursive;
+            font-size: 48px;
+            font-style: italic;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border: 2px solid #dc3545;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
-
-        .header-text {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
         .container {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 50px 0;
-        }
-
-        .box {
-            width: 400px;
-            background-color: #ffffff;
-            border-radius: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 80%;
             padding: 40px;
-            border: 5px solid transparent;
-            border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
-            border-image-slice: 1;
-            animation: glow 2s infinite alternate;
-        }
-
-        @keyframes glow {
-            0% {
-                border-width: 5px;
-            }
-            100% {
-                border-width: 15px;
-            }
-        }
-
-        .box h2 {
-            margin-bottom: 20px;
-            font-size: 24px;
-            color: #333333;
+            background-color: #1f1f1f;
+            border: 2px solid #dc3545;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
             text-align: center;
-            font-family: 'Cutive Mono', monospace;
         }
-
-        .box p {
-            font-size: 16px;
-            color: #666666;
-            text-align: center;
+        h1 {
+            color: #dc3545;
+            margin-bottom: 20px;
+            font-size: 36px;
+            font-family: 'Caveat', cursive;
+            font-style: italic;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
             margin-bottom: 20px;
         }
-
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .social-icons a {
-            color: #333333;
-            font-size: 24px;
+        .button {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #dc3545;
+            color: #fff;
             text-decoration: none;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #c82333;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
             margin: 0 10px;
             transition: color 0.3s ease;
         }
-
         .social-icons a:hover {
-            color: #ff0000;
-        }
-
-        .contact-btn {
-            background-color: #ff0000;
-            color: #ffffff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 18px;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .contact-btn:hover {
-            background-color: #ffffff;
-            color: #ff0000;
-        }
-
-        .achievements {
-            margin-top: 50px;
-            text-align: center;
-        }
-
-        .achievements h3 {
-            font-size: 24px;
-            color: #ff0000;
-            margin-bottom: 20px;
-            font-family: 'Cutive Mono', monospace;
-        }
-
-        .achievement-item {
-            font-size: 18px;
-            color: #ffffff;
-            margin-bottom: 10px;
-            line-height: 1.5;
+            color: #dc3545;
         }
     </style>
 </head>
 <body>
-
-<div class="header-container">
-    <div class="header-text">WELCOME TO HARSHRAJSINH'S PORTFOLIO</div>
-</div>
-
-<div class="container">
-    <div class="box">
-        <h2>Welcome to Harshrajsinh's Portfolio</h2>
-        <p>I am a Full Stack Developer and part-time gamer. Passionate about creating efficient, user-friendly web applications and exploring virtual worlds.</p>
+    <div class="header">
+        <h1>Welcome to My GitHub Page</h1>
+    </div>
+    <div class="container">
+        <p>Hello, I'm Harshrajsinh Dabhi, a passionate coder and technology enthusiast. I thrive on learning new things, solving complex problems, and building innovative solutions. My GitHub page is a showcase of my projects and contributions to the tech community.</p>
+        <p>Feel free to explore my repositories and get in touch!</p>
         <div class="social-icons">
-            <a href="https://instagram.com/harshrajsinh_991" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://linkedin.com/in/harshrajsinhdabhi" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://t.me/TheWeekndXd" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/harshrajsinh_991" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/harshrajsinhdabhi" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://leetcode.com/leocodes77" target="_blank"><i class="fas fa-code"></i></a>
         </div>
-        <button class="contact-btn">Contact Me - contactharshrajsinh@gmail.com</button>
+        <a href="mailto:harshrajsinhdabhi65@example.com" class="button">Contact Me</a>
     </div>
-
-    <div class="achievements">
-        <h3>Achievements</h3>
-        <div class="achievement-item">Owner of TRxEsports</div>
-        <div class="achievement-item">Tier-1 BGMI Player</div>
-        <div class="achievement-item">Played with top-rated Indian players</div>
-        <div class="achievement-item">Winner of 5K Exorcist Cup</div>
-    </div>
-</div>
-
 </body>
 </html>
